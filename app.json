@@ -1,0 +1,8 @@
+   {
+  "name": "cchat",
+  "description": "CChat is simple chat application using socket io",
+  "repository": "git@github.com:aaron-goshine/three-sixtyfive-days-of-rain.git",
+  "logo": "http://rain365.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

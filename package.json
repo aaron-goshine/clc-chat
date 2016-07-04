@@ -1,0 +1,33 @@
+
+{
+  "name": "cchat",
+  "version": "1.0.0",
+  "description": "cchat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error no test specified\" && exit 1",
+    "start": "node index.js",
+    "startnm": "nodemon -e js -w ./ ./index.js",
+    "setup": "node ./setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-goshine/cchat.git"
+  },
+  "author": "Aaron Goshine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaron-goshine/cchat/issues"
+  },
+  "homepage": "https://github.com/aaron-goshine/cchat#readme",
+  "dependencies": {
+    "express": "4.13.3",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.0"
+  },
+  "engines": {
+    "node": "^6.11.1"
+  }
+}
